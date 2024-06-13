@@ -164,7 +164,7 @@ int main(void)
     OLED_NewFrame();
     OLED_DrawImage(20, 0, &littledog3Img, OLED_COLOR_NORMAL);    
     OLED_ShowFrame();
-    HAL_Delay(1000);
+    
     
     
     /* USER CODE END WHILE */
